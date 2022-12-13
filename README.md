@@ -17,5 +17,5 @@ $$
 The solution ought to be
 
 $$
-u = \frac{7}{4} - \frac{3}{2r} - \frac{r^2}{4}.
+u = \frac{1}{4} + \frac{3}{4 \ln 2} \ln r - \frac{r^2}{4}.
 $$
