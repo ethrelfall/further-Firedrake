@@ -8,7 +8,7 @@ $$
 
 on the interval $[1,2]$.
 
-Get a weak form by multiplying the equation by $r$ and then by the test function $v$ and integrating.  Throwing away a boundary term this is then
+Get a weak form by multiplying the equation by $r$ and then by the test function $v$ and integrating.  Throwing away a boundary term (the boundary conditions will be strongly enforced by constraining the test functions) this is then
 
 $$
 -\int_1^2 r \frac{du}{dr} \frac{dv}{dr} dr = - \int_1^2 r v dr.
@@ -32,6 +32,12 @@ It is easy to put this into a weak form with Dirichlet BCs at two endpoints in $
 
 $$
 u' + \left ( r u' \right )' + 1 = 0.
+$$
+
+The weak form, again having discarded the boundary terms, is
+
+$$
+\int_1^2 u v' dx + \int_1^2 r u' v' dx = \int_1^2 v dx.
 $$
 
 Let us take homogeneous Dirichlet BCs on the interval $r \in [1,2]$ (i.e. $u$ vanishes at the endpoints), then the analytic solution is
