@@ -50,4 +50,4 @@ $$
 u = \frac{3}{2} +\frac{1}{r} - \frac{r}{2}.
 $$
 
-See RAPTOR_simple.py for Firedrake implementation, which again closely reproduces the analytic solution.
+See RAPTOR_simple.py for Firedrake implementation, which again closely reproduces the analytic answer.
