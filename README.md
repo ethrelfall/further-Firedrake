@@ -20,6 +20,8 @@ $$
 u = \frac{1}{4} + \frac{3}{4 \ln 2} \ln r - \frac{r^2}{4}.
 $$
 
+See RadialPP_interval_Laplacian.py for Firedrake implementation.
+
 Equation from RAPTOR
 
 This is, writing $u$ instead of $\psi$ and $r$ instead of $\hat{\rho}$,
@@ -45,3 +47,5 @@ Let us take homogeneous Dirichlet BCs on the interval $r \in [1,2]$ (i.e. $u$ va
 $$
 u = \frac{3}{2} -\frac{1}{r} - \frac{r}{2}.
 $$
+
+See RAPTOR_simple.py for Firedrake implementation.
